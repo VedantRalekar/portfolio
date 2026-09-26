@@ -990,7 +990,28 @@ body.light-mode .terminal-body {
 .project-links a:hover {
   color: var(--accent);
 }
+/* ---coding profile--- */
 
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.profile-link i.fa-arrow-up-right-from-square {
+  font-size: 15px;
+  position: relative;
+  top: 8px;
+}
 /* ---------- achievements ---------- */
 .achievement-grid {
   display: grid;
